@@ -1,13 +1,225 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <title>Luiz Pires - Ranzinza</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+<html>
+
+<head>
+  <title>Luiz Pires <-> Ranzinza</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet"
+    media="screen">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/style.css" rel="stylesheet" media="screen">
+  <link href="color/default.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle nav</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!-- Logo text or image -->
+        <a class="navbar-brand" href="index.html">Luiz Pires </a>
+
+      </div>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="#intro">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Skills</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>About us</h2>
+            <div class="heading-line"></div>
+            <p>Um pouco da minha história</p>
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 about-img">
+          <img src="img/foto.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>O software pode ser feito do mesmo material que os sonhos, mas funciona no mundo real.</h2>
+          <h3>A unica maneira de ir rápido, é ir bem.</h3>
+          <p>
+            Comecei a desenvolver em 2002, com PHP 4 e Delphi 7, trabalhei diretamente com desenvolvimento até 2009,
+            quando decidi abandonar o desenvolvimento para me tornar chef de cozinha. No início de 2019, vendi meu
+            restaurante e voltei para a área de desenvolvimento. <br /> <br />
+
+            Hoje sou Backend Developer usando Typescript aplicando conceitos como TDD, Clean Architecture, Clean Code e
+            princípios SOLID. <br /> <br />
+
+            Faço o curso de Analise e Desenvolvimento de Sistemas na UCPEL foco minhas pesquisas em Arquitetura e Design
+            de sistemas com enfase em desenvolvimento de produtos. <br />
+          </p>
+
+          <p>
+            <i>Meus principais projetos são:</i>
+          </p>
+          <p>
+            <b><a href="https://github.com/ProgramadorRanzinza/ITeacher" target="_blank">ITeacher.app:</a></b>
+            Plataforma multilateral que conecta alunos e professores (Open Source).<br>
+            <b><a href="https://www.twitch.tv/programadorranzinza" target="_blank">Ranzinza.live</a></b> Canal na
+            twitch.tv onde o ITeacher.app é desenvolvido 100% online.</br>
+            <b><a href="https://www.twitch.tv/tavernadev" target="_blank">ITeacher.app:</a></b>
+            Administrador e um dos fundadores da comunidade TavernaDev.<br>
+          </p>
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parallax 1 -->
+  <section id="parallax1" class="home-section parallax" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="color-light">
+            <h3 class="wow bounceInDown" data-wow-delay="0.5s">A arquitetura representa as decisões significativas de
+              design que moldam um sistema, onde a significância é medida pelo custo da mudança </h3>
+            <p class="lead wow bounceInUp" data-wow-delay="1s">Grady Booch</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills -->
+  <section id="skills" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>skills</h2>
+            <div class="heading-line"></div>
+            <p>Um pouco do que eu sei e do que eu estudo</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carousel-service" class="service carousel slide">
+
+            <!-- slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Typescript</h4>
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut -->
+                      <!-- labore et dolore magna.</p> -->
+                    </div>
+                    <div class="wow bounceInLeft">
+                      <h4>Orientação a objetos</h4>
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna.</p> -->
+                    </div>
+                    <div class="wow bounceInLeft">
+                      <h4>API Rest</h4>
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna.</p> -->
+                    </div>
+                    <div class="wow bounceInLeft">
+                      <h4>TDD</h4>
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna.</p> -->
+                    </div>
+                    <div class="wow bounceInLeft">
+                      <h4>Clean code</h4>
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna.</p> -->
+                    </div>
+                    <div class="wow bounceInLeft">
+                      <h4>Arquitetura de software</h4>
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna.</p> -->
+                    </div>
+                    <div class="wow bounceInLeft">
+                      <h4>TypeORM</h4>
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna.</p> -->
+                    </div>
+                    <div class="wow bounceInLeft">
+                      <h4>Express</h4>
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna.</p> -->
+                    </div>
+                    <div class="wow bounceInLeft">
+                      <h4>DDD</h4>
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna.</p> -->
+                    </div>
+                  </div>
+                  <!-- Bottom widget -->
+                  <section id="bottom-widget" class="home-section bg-white">
+                    <div class="container">
+                      <d <div class="row mar-top30">
+                        <div class="col-md-12">
+                          <h5>Social networks</h5>
+                          <ul class="social-network">
+                            <li><a href="https://twitter.com/dev_ranzinza" target="_blank">
+                                <span class="fa-stack fa-2x">
+                                  <i class="fa fa-circle fa-stack-2x"></i>
+                                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span></a>
+                            </li>
+                            </li>
+                            <li><a href="https://github.com/LuizPiresS" target="_blank">
+                                <span class="fa-stack fa-2x">
+                                  <i class="fa fa-circle fa-stack-2x"></i>
+                                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span></a>
+                            </li>
+                            <li><a href="https://www.instagram.com/dev_ranzinza/" target="_blank">
+                                <span class="fa-stack fa-2x">
+                                  <i class="fa fa-circle fa-stack-2x"></i>
+                                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span></a>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+  </section>
+  <!-- js -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/stellar.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
+</body>
+
 </html>
